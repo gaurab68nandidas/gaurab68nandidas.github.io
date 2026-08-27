@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Butterfly ecologist and biodiversity researcher"
   location         : "Czechia"
-  employer         : "Biologické centrum AV ČR"
+  employer         : "Biology Centre CAS"
   uri              : # URL
   email            : "none@example.org" 
 
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0000-0002-4722-3100"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : ""
   researchgate     : "https://www.researchgate.net/profile/Gaurab-Das" # URL
   scopus           : # URL
   zotero           : # URL
