@@ -1,16 +1,26 @@
 /* =========================================================
-   Gaurab Nandi Das — Custom Academic Website
+   Gaurab Nandi Das — Personal Academic Website
    ========================================================= */
 
 :root {
   --bg: #f8f7f3;
+  --surface: #ffffff;
   --text: #20231f;
   --muted: #687066;
   --accent: #3f654d;
+  --accent-dark: #294b38;
   --accent-light: #e8eee8;
   --border: #dfe2dc;
-  --white: #ffffff;
   --max-width: 1180px;
+}
+
+
+/* =========================================================
+   Base
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
 }
 
 html {
@@ -18,8 +28,10 @@ html {
 }
 
 body {
+  margin: 0;
   background: var(--bg);
   color: var(--text);
+
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -27,35 +39,15 @@ body {
     Helvetica,
     Arial,
     sans-serif;
+
+  font-size: 17px;
   line-height: 1.75;
 }
 
-.page {
-  max-width: var(--max-width);
-  margin: 0 auto;
-}
 
-h1,
-h2,
-h3 {
-  color: var(--text);
-  letter-spacing: -0.02em;
-}
-
-h1 {
-  font-size: clamp(2.5rem, 6vw, 5rem);
-  line-height: 1.05;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-top: 3rem;
-}
-
-h3 {
-  font-size: 1.35rem;
-}
+/* =========================================================
+   Links
+   ========================================================= */
 
 a {
   color: var(--accent);
@@ -63,84 +55,320 @@ a {
 }
 
 a:hover {
+  color: var(--accent-dark);
   text-decoration: underline;
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid var(--border);
-  margin: 3rem 0;
-}
 
-/* Main content */
+/* =========================================================
+   Header
+   ========================================================= */
 
-.archive,
-.page__content {
-  background: transparent;
-}
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 
-.page__content {
-  max-width: 900px;
-}
-
-.page__content p {
-  font-size: 1.05rem;
-}
-
-.page__content li {
-  margin-bottom: 0.35rem;
-}
-
-/* Hide unnecessary Academic Pages elements */
-
-.author__urls-wrapper {
-  display: none;
-}
-
-.sidebar {
-  background: transparent;
-}
-
-/* Navigation */
-
-.masthead {
-  background: var(--bg);
+  background: rgba(248, 247, 243, 0.96);
   border-bottom: 1px solid var(--border);
+
+  backdrop-filter: blur(10px);
 }
 
-.greedy-nav {
-  background: transparent;
+.site-header__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+
+  padding: 18px 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 30px;
 }
 
-.greedy-nav a {
+.site-logo {
+  color: var(--text);
+
+  font-size: 20px;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+.site-logo:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+
+/* =========================================================
+   Navigation
+   ========================================================= */
+
+.site-nav {
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
+
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.site-nav a {
   color: var(--text);
 }
 
-.greedy-nav a:hover {
+.site-nav a:hover {
   color: var(--accent);
+  text-decoration: none;
 }
 
-/* Buttons */
 
-.btn {
-  border-radius: 999px;
+/* =========================================================
+   Main content
+   ========================================================= */
+
+.site-main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+
+  padding: 75px 28px 100px;
 }
 
-/* Mobile */
 
-@media (max-width: 768px) {
+/* =========================================================
+   Typography
+   ========================================================= */
 
-  .page {
-    padding-left: 1rem;
-    padding-right: 1rem;
+.site-main h1 {
+  margin: 0 0 24px;
+
+  font-size: clamp(2.8rem, 6vw, 5rem);
+
+  line-height: 1.05;
+
+  letter-spacing: -0.04em;
+
+  font-weight: 700;
+}
+
+.site-main h2 {
+  margin-top: 70px;
+  margin-bottom: 24px;
+
+  font-size: 2rem;
+
+  line-height: 1.2;
+
+  letter-spacing: -0.025em;
+}
+
+.site-main h3 {
+  margin-top: 35px;
+  margin-bottom: 12px;
+
+  font-size: 1.35rem;
+
+  line-height: 1.35;
+}
+
+.site-main p {
+  max-width: 850px;
+}
+
+.site-main strong {
+  font-weight: 650;
+}
+
+
+/* =========================================================
+   Horizontal rules
+   ========================================================= */
+
+.site-main hr {
+  border: 0;
+
+  border-top: 1px solid var(--border);
+
+  margin: 55px 0;
+}
+
+
+/* =========================================================
+   Lists
+   ========================================================= */
+
+.site-main ul,
+.site-main ol {
+  max-width: 850px;
+
+  padding-left: 1.4rem;
+}
+
+.site-main li {
+  margin-bottom: 0.35rem;
+}
+
+
+/* =========================================================
+   Homepage sections
+   ========================================================= */
+
+.site-main section {
+  margin-bottom: 70px;
+}
+
+
+/* =========================================================
+   Buttons / action links
+   ========================================================= */
+
+.site-main a[href^="/research/"],
+.site-main a[href^="/projects/"],
+.site-main a[href^="/publications/"],
+.site-main a[href^="/fieldwork/"],
+.site-main a[href^="/about/"] {
+  display: inline-block;
+
+  margin-top: 8px;
+
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   Footer
+   ========================================================= */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+
+  background: var(--surface);
+}
+
+.site-footer__inner {
+  max-width: var(--max-width);
+
+  margin: 0 auto;
+
+  padding: 45px 28px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 40px;
+}
+
+.site-footer strong {
+  font-size: 16px;
+}
+
+.site-footer p {
+  margin: 5px 0 0;
+
+  color: var(--muted);
+
+  font-size: 14px;
+}
+
+.site-footer__links {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  gap: 20px;
+
+  font-size: 14px;
+}
+
+.site-footer__bottom {
+  max-width: var(--max-width);
+
+  margin: 0 auto;
+
+  padding: 18px 28px;
+
+  border-top: 1px solid var(--border);
+
+  color: var(--muted);
+
+  font-size: 13px;
+}
+
+
+/* =========================================================
+   Mobile
+   ========================================================= */
+
+@media (max-width: 850px) {
+
+  .site-header__inner {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    padding: 16px 20px;
   }
 
-  h1 {
+  .site-nav {
+    width: 100%;
+
+    flex-wrap: wrap;
+
+    gap: 10px 18px;
+  }
+
+  .site-main {
+    padding: 50px 20px 75px;
+  }
+
+  .site-main h1 {
     font-size: 2.8rem;
   }
 
-  h2 {
+  .site-main h2 {
+    margin-top: 55px;
+
     font-size: 1.7rem;
+  }
+
+  .site-footer__inner {
+    flex-direction: column;
+
+    padding: 35px 20px;
+  }
+
+  .site-footer__bottom {
+    padding: 16px 20px;
+  }
+
+}
+
+
+/* =========================================================
+   Very small screens
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  .site-main h1 {
+    font-size: 2.45rem;
+  }
+
+  .site-nav {
+    gap: 8px 14px;
+
+    font-size: 14px;
   }
 
 }
