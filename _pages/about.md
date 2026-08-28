@@ -6,38 +6,122 @@ redirect_from:
   - /about/
   - /about.html
 ---
+# Gaurab Nandi Das
 
-# Welcome
+### Butterfly ecologist · Biodiversity researcher
 
-I am **Gaurab Nandi Das**, a butterfly ecologist and biodiversity researcher interested in understanding patterns of butterfly diversity, ecology, evolution, and conservation.
+I study **butterfly biodiversity, ecology, evolution and environmental change**, with a particular focus on South Asia.
 
-My research combines **field-based ecological studies, biodiversity informatics, natural history collections, and quantitative approaches** to investigate how butterfly communities and phenotypic traits vary across space and through time.
+My research brings together **field ecology, natural history collections, biodiversity informatics, evolutionary approaches and quantitative methods** to understand how butterfly diversity and phenotypes vary across space and through time.
 
-## Research Interests
+---
 
-* Butterfly ecology and biodiversity
-* Community ecology and species assemblages
-* Biodiversity patterns and conservation
-* Natural history collections and museum specimens
-* Phenotypic variation and evolution
-* Biodiversity informatics
-* Environmental change and its effects on butterflies
+## Currently
 
-## Current Research
+I am working on research that connects **historical biodiversity records with contemporary ecological data**.
 
-My research focuses particularly on butterflies of **South Asia**, integrating field observations, historical collections, biodiversity databases, environmental information, and quantitative methods.
+### TRACE
 
-I am also developing **TRACE**, an interdisciplinary research project investigating long-term phenotypic responses of South Asian butterflies to global environmental change.
+**Tracing long-term phenotypic responses of South Asian butterflies to global change**
 
-## Explore My Work
+An interdisciplinary research project integrating natural history collections, biodiversity records and environmental information to investigate long-term phenotypic change.
 
-Use the navigation menu above to explore my:
+### Butterfly biodiversity
 
-* **Research** — research themes, questions, and ongoing work
-* **Publications** — journal articles, books, and other scholarly contributions
-* **Projects** — current and previous research projects
-* **Photography** — butterfly and macro photography
-* **CV** — academic background, experience, and achievements
-* **Connections** — research collaborators and professional networks
+Investigating butterfly communities, species richness, abundance and habitat associations through field-based ecological research.
 
-I welcome opportunities for **research collaboration, field projects, biodiversity studies, and interdisciplinary work on butterflies and their changing environments**.
+### Biodiversity & evolution
+
+Studying species distributions, endemism, evolutionary distinctiveness and broader biogeographic patterns of Indian and South Asian butterflies.
+
+---
+
+## Research
+
+My research interests span several connected areas:
+
+**Butterfly ecology**  
+Understanding species richness, abundance and community composition across habitats and environmental gradients.
+
+**Evolution & biogeography**  
+Investigating evolutionary relationships, species distributions, endemism and large-scale biodiversity patterns.
+
+**Natural history collections**  
+Using historical museum specimens as a record of past biodiversity and phenotypic variation.
+
+**Biodiversity informatics**  
+Connecting museum collections, GBIF, iDigBio and contemporary biodiversity observations.
+
+**Phenotypic change**  
+Exploring how butterfly phenotypes vary through time and in relation to environmental change.
+
+**Conservation**  
+Understanding ecological patterns that can contribute to the conservation of butterfly diversity.
+
+[Explore my research →](/research/)
+
+---
+
+## Featured projects
+
+### TRACE
+
+**Long-term phenotypic change in South Asian butterflies**
+
+Museum collections · Biodiversity informatics · Geometric morphometrics · Environmental modelling
+
+[Explore TRACE →](/projects/)
+
+### Manas National Park
+
+**Butterfly biodiversity across habitats and environmental gradients**
+
+Field ecology · Community ecology · Habitat associations · Quantitative analysis
+
+[Explore fieldwork →](/fieldwork/)
+
+### Indian Butterfly Biogeography
+
+**Distribution, endemism and evolutionary distinctiveness**
+
+Species distributions · Phylogenetics · Evolutionary distinctiveness · Macroecology
+
+[Explore projects →](/projects/)
+
+---
+
+## Selected publications
+
+My research includes work on butterfly ecology, biodiversity, taxonomy, evolution and conservation.
+
+[View publications →](/publications/)
+
+---
+
+## Fieldwork
+
+Much of my research begins in the field.
+
+I work with butterfly communities across different habitats and landscapes, combining standardized biodiversity surveys with ecological observations and environmental measurements.
+
+**South Asia · India · Biodiversity · Butterflies**
+
+[Explore fieldwork →](/fieldwork/)
+
+---
+
+## About
+
+I am a butterfly ecologist and biodiversity researcher currently based in **Czechia**, with research interests centred on the biodiversity and ecology of butterflies, particularly those of South Asia.
+
+My work combines field research with natural history collections, biodiversity databases and quantitative approaches.
+
+I am interested in collaborations involving **butterfly ecology, biodiversity, taxonomy, natural history collections, biodiversity informatics, evolutionary ecology and environmental change**.
+
+[More about me →](/about/)
+
+---
+
+## Connect
+
+[Google Scholar](https://scholar.google.com/citations?user=obLqUQgAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0002-4722-3100) · [ResearchGate](https://www.researchgate.net/profile/Gaurab-Das) · [GitHub](https://github.com/gaurab68nandidas)
