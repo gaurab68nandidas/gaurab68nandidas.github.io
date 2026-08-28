@@ -1,11 +1,9 @@
 ---
 permalink: /
-title: "About Me"
+title: "Home"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
+
 # Gaurab Nandi Das
 
 ### Butterfly ecologist · Biodiversity researcher
