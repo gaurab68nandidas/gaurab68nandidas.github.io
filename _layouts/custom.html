@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} · {{ site.name }}
+    {% else %}
+      {{ site.name }}
+    {% endif %}
+  </title>
+
+  <meta name="description"
+        content="{{ page.excerpt | default: site.description | strip_html | strip_newlines }}">
+
+  <link rel="stylesheet"
+        href="{{ '/assets/css/custom.css' | relative_url }}">
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <div class="site-header__inner">
+
+      <a class="site-logo"
+         href="{{ '/' | relative_url }}">
+        Gaurab Nandi Das
+      </a>
+
+      <nav class="site-nav">
+
+        <a href="{{ '/' | relative_url }}">Home</a>
+
+        <a href="{{ '/research/' | relative_url }}">
+          Research
+        </a>
+
+        <a href="{{ '/projects/' | relative_url }}">
+          Projects
+        </a>
+
+        <a href="{{ '/publications/' | relative_url }}">
+          Publications
+        </a>
+
+        <a href="{{ '/fieldwork/' | relative_url }}">
+          Fieldwork
+        </a>
+
+        <a href="{{ '/about/' | relative_url }}">
+          About
+        </a>
+
+        <a href="{{ '/cv/' | relative_url }}">
+          CV
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <main class="site-main">
+
+    {{ content }}
+
+  </main>
+
+
+  <footer class="site-footer">
+
+    <div class="site-footer__inner">
+
+      <div>
+
+        <strong>Gaurab Nandi Das</strong>
+
+        <p>
+          Butterfly ecologist · Biodiversity researcher
+        </p>
+
+      </div>
+
+      <div class="site-footer__links">
+
+        <a href="https://orcid.org/0000-0002-4722-3100">
+          ORCID
+        </a>
+
+        <a href="https://scholar.google.com/citations?user=obLqUQgAAAAJ&hl=en">
+          Google Scholar
+        </a>
+
+        <a href="https://github.com/gaurab68nandidas">
+          GitHub
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="site-footer__bottom">
+
+      © {{ 'now' | date: "%Y" }} Gaurab Nandi Das
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
