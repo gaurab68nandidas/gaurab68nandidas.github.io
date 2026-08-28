@@ -1,9 +1,9 @@
 ---
+layout: custom
 permalink: /
 title: "Home"
-author_profile: true
-
 ---
+
 
 
 # Gaurab Nandi Das
