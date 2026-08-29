@@ -38,23 +38,51 @@ title: Home
 
 ---
 
-## Currently
+<section class="home-section">
 
-I am currently working on research that connects **historical biodiversity records with contemporary ecological and environmental data**.
+  <h2>Currently</h2>
 
-### TRACE
+  <p class="section-intro">
+    My current work connects historical biodiversity records with
+    contemporary ecological and environmental data.
+  </p>
 
-**Tracing long-term phenotypic responses of South Asian butterflies to global change**
+  <div class="card-grid">
 
-An interdisciplinary project integrating **natural history collections, biodiversity records, computational approaches and environmental data** to investigate long-term phenotypic change in South Asian butterflies.
+    <div class="card">
+      <div class="card-number">01</div>
+      <h3>TRACE</h3>
+      <p>
+        Tracing long-term phenotypic responses of South Asian butterflies
+        to global change using museum collections, biodiversity records
+        and environmental data.
+      </p>
+      <a href="/projects/">Explore project →</a>
+    </div>
 
-### Butterfly biodiversity
+    <div class="card">
+      <div class="card-number">02</div>
+      <h3>Butterfly biodiversity</h3>
+      <p>
+        Investigating butterfly communities, species richness, abundance
+        and habitat associations through field-based ecological research.
+      </p>
+      <a href="/fieldwork/">Explore fieldwork →</a>
+    </div>
 
-Investigating butterfly **species richness, abundance, community composition and habitat associations** through field-based ecological research.
+    <div class="card">
+      <div class="card-number">03</div>
+      <h3>Biodiversity & evolution</h3>
+      <p>
+        Studying species distributions, endemism, evolutionary
+        distinctiveness and biogeographic patterns.
+      </p>
+      <a href="/research/">Explore research →</a>
+    </div>
 
-### Biodiversity & evolution
+  </div>
 
-Studying **species distributions, endemism, evolutionary distinctiveness and biogeographic patterns** of Indian and South Asian butterflies.
+</section>
 
 ---
 
