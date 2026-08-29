@@ -20,6 +20,9 @@ main:
   - title: "Fieldwork"
     url: /fieldwork/
 
+  - title: "Photography"
+    url: /photography/
+
   - title: "About"
     url: /about/
 
