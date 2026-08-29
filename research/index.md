@@ -4,81 +4,43 @@ title: "Research"
 permalink: /research/
 ---
 
-<section class="page-hero">
-
 # Research
 
-<p class="hero-lead">
-I study <strong>butterfly biodiversity, ecology, evolution and environmental change</strong>, with a particular focus on South Asia.
-</p>
+I study **butterfly biodiversity, ecology, evolution and environmental change**, with a particular focus on South Asia.
 
-<p>
-My research combines field ecology, natural history collections, biodiversity informatics, phylogenetics and quantitative approaches to understand how butterfly diversity changes across space and through time.
-</p>
-
-</section>
+My research combines **field ecology, natural history collections, biodiversity informatics, phylogenetics and quantitative approaches** to understand how butterfly diversity and phenotypes vary across space and through time.
 
 ---
 
 ## What I study
 
-<div class="research-list">
+### 01 — Butterfly biodiversity & ecology
 
-<div class="research-item">
-<div class="research-number">01</div>
-<div>
-<h3>Butterfly biodiversity & ecology</h3>
-<p>I investigate species richness, abundance, community composition and habitat associations across environmental gradients.</p>
-</div>
-</div>
+I investigate butterfly species richness, abundance, community composition and habitat associations across environmental gradients.
 
-<div class="research-item">
-<div class="research-number">02</div>
-<div>
-<h3>Evolution & biogeography</h3>
-<p>I study species distributions, evolutionary distinctiveness, endemism and biogeographic patterns of Indian and South Asian butterflies.</p>
-</div>
-</div>
+### 02 — Evolution & biogeography
 
-<div class="research-item">
-<div class="research-number">03</div>
-<div>
-<h3>Natural history collections</h3>
-<p>I use museum specimens as historical records to investigate past biodiversity and phenotypic variation.</p>
-</div>
-</div>
+I study species distributions, evolutionary distinctiveness, endemism and biogeographic patterns of Indian and South Asian butterflies.
 
-<div class="research-item">
-<div class="research-number">04</div>
-<div>
-<h3>Biodiversity informatics</h3>
-<p>I integrate GBIF, iDigBio and natural history collections with contemporary biodiversity observations.</p>
-</div>
-</div>
+### 03 — Natural history collections
 
-<div class="research-item">
-<div class="research-number">05</div>
-<div>
-<h3>Phenotypic change</h3>
-<p>I investigate how butterfly phenotypes vary through time in relation to environmental and climatic change.</p>
-</div>
-</div>
+I use museum specimens as historical records to investigate past biodiversity and phenotypic variation.
 
-<div class="research-item">
-<div class="research-number">06</div>
-<div>
-<h3>Conservation & environmental change</h3>
-<p>I examine how habitat and environmental conditions influence butterfly communities and biodiversity.</p>
-</div>
-</div>
+### 04 — Biodiversity informatics
 
-</div>
+I integrate GBIF, iDigBio and natural history collections with contemporary biodiversity observations.
+
+### 05 — Phenotypic change
+
+I investigate how butterfly phenotypes vary through time in relation to environmental and climatic change.
+
+### 06 — Conservation & environmental change
+
+I examine how habitat and environmental conditions influence butterfly communities and biodiversity conservation.
 
 ---
 
 ## How I work
-
-<div class="approach-box">
 
 **Field ecology** · **Taxonomy** · **Phylogenetics** · **Macroecology**
 
@@ -86,9 +48,46 @@ My research combines field ecology, natural history collections, biodiversity in
 
 **Geometric morphometrics** · **Spatial analysis** · **Statistical modelling**
 
-</div>
+---
+
+## Featured research
+
+### TRACE
+
+**Long-term phenotypic responses of South Asian butterflies to global change**
+
+Natural history collections · Biodiversity informatics · Phenotypic analysis · Environmental modelling
+
+[Explore TRACE →](/projects/)
+
+### Manas National Park
+
+**Butterfly biodiversity across habitats and environmental gradients**
+
+Field ecology · Community ecology · Habitat associations · Quantitative analysis
+
+[Explore fieldwork →](/fieldwork/)
+
+### Indian Butterfly Biogeography
+
+**Distribution, endemism and evolutionary distinctiveness**
+
+Species distributions · Phylogenetics · Macroecology
+
+[Explore projects →](/projects/)
 
 ---
 
-[Explore projects →](/projects/)  
+## Publications
+
+My research includes work on **butterfly ecology, biodiversity, taxonomy, evolution and conservation**.
+
 [View publications →](/publications/)
+
+---
+
+## Let's talk
+
+I am interested in collaborations involving **butterfly biodiversity, ecology, evolution, natural history collections, biodiversity informatics and environmental change**.
+
+[Google Scholar](https://scholar.google.com/citations?user=obLqUQgAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0002-4722-3100) · [ResearchGate](https://www.researchgate.net/profile/Gaurab-Das) · [GitHub](https://github.com/gaurab68nandidas)
