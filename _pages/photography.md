@@ -1,9 +1,12 @@
 ---
-layout: single
+layout: page
 title: "Photography"
 permalink: /photography/
-author_profile: true
 ---
+
+# Photography
+
+A visual collection from my fieldwork, butterfly observations, natural history research and travels.
 
 ## Butterflies
 
@@ -12,19 +15,19 @@ author_profile: true
 <div class="photo-item">
 <img src="/images/photography/butterflies/common-mormon.jpg" alt="Common Mormon">
 <p><strong>Common Mormon</strong><br>
-Papilio polytes</p>
+<em>Papilio polytes</em></p>
 </div>
 
 <div class="photo-item">
 <img src="/images/photography/butterflies/blue-tiger.jpg" alt="Blue Tiger">
 <p><strong>Blue Tiger</strong><br>
-Tirumala limniace</p>
+<em>Tirumala limniace</em></p>
 </div>
 
 <div class="photo-item">
 <img src="/images/photography/butterflies/common-jezeebel.jpg" alt="Common Jezebel">
 <p><strong>Common Jezebel</strong><br>
-Delias eucharis</p>
+<em>Delias eucharis</em></p>
 </div>
 
 </div>
