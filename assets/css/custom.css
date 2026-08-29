@@ -372,3 +372,58 @@ a:hover {
   }
 
 }
+
+/* =========================================================
+   Photography Gallery
+   ========================================================= */
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin: 25px 0 45px;
+}
+
+.photo-item {
+  margin: 0;
+}
+
+.photo-item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.photo-item img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.photo-item p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.photo-item p strong {
+  color: var(--text);
+}
+
+@media (max-width: 800px) {
+  .photo-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .photo-gallery {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
