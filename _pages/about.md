@@ -31,7 +31,7 @@ title: Home
   </div>
 
   <div class="hero-photo">
-    <img src="/images/YOUR-PHOTO.jpg" alt="Gaurab Nandi Das">
+    <img src="/images/gaurab.jpg" alt="Gaurab Nandi Das">
   </div>
 
 </div>
