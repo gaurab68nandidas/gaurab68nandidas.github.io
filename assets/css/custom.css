@@ -1,23 +1,18 @@
 /* =========================================================
-   Gaurab Nandi Das — Personal Academic Website
+   Gaurab Nandi Das — Academic Website
    ========================================================= */
 
 :root {
-  --bg: #f8f7f3;
-  --surface: #ffffff;
-  --text: #20231f;
-  --muted: #687066;
-  --accent: #3f654d;
-  --accent-dark: #294b38;
-  --accent-light: #e8eee8;
-  --border: #dfe2dc;
+  --bg: #f7f8f5;
+  --white: #ffffff;
+  --text: #20251f;
+  --muted: #697269;
+  --green: #3f654d;
+  --green-dark: #294b38;
+  --green-light: #e8eee9;
+  --border: #dfe4de;
   --max-width: 1180px;
 }
-
-
-/* =========================================================
-   Base
-   ========================================================= */
 
 * {
   box-sizing: border-box;
@@ -31,7 +26,6 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -39,82 +33,50 @@ body {
     Helvetica,
     Arial,
     sans-serif;
-
   font-size: 17px;
-  line-height: 1.75;
+  line-height: 1.7;
 }
 
-
-/* =========================================================
-   Links
-   ========================================================= */
-
-a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--accent-dark);
-  text-decoration: underline;
-}
-
-
-/* =========================================================
-   Header
-   ========================================================= */
+/* ================= HEADER ================= */
 
 .site-header {
   position: sticky;
   top: 0;
   z-index: 1000;
-
-  background: rgba(248, 247, 243, 0.96);
+  background: rgba(247, 248, 245, 0.94);
   border-bottom: 1px solid var(--border);
-
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
 }
 
 .site-header__inner {
   max-width: var(--max-width);
-  margin: 0 auto;
-
-  padding: 18px 28px;
-
+  margin: auto;
+  padding: 18px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   gap: 30px;
 }
 
 .site-logo {
   color: var(--text);
-
   font-size: 20px;
   font-weight: 700;
-
   white-space: nowrap;
 }
 
 .site-logo:hover {
-  color: var(--accent);
+  color: var(--green);
   text-decoration: none;
 }
 
-
-/* =========================================================
-   Navigation
-   ========================================================= */
-
 .site-nav {
   display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
   align-items: center;
-
-  gap: 24px;
-
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .site-nav a {
@@ -122,270 +84,224 @@ a:hover {
 }
 
 .site-nav a:hover {
-  color: var(--accent);
+  color: var(--green);
   text-decoration: none;
 }
 
-
-/* =========================================================
-   Main content
-   ========================================================= */
+/* ================= MAIN ================= */
 
 .site-main {
   max-width: var(--max-width);
-  margin: 0 auto;
-
-  padding: 75px 28px 100px;
+  margin: auto;
+  padding: 70px 30px 100px;
 }
 
-
-/* =========================================================
-   Typography
-   ========================================================= */
+/* ================= TYPOGRAPHY ================= */
 
 .site-main h1 {
-  margin: 0 0 24px;
-
-  font-size: clamp(2.8rem, 6vw, 5rem);
-
-  line-height: 1.05;
-
-  letter-spacing: -0.04em;
-
-  font-weight: 700;
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -0.055em;
+  margin: 0 0 25px;
+  font-weight: 750;
 }
 
 .site-main h2 {
-  margin-top: 70px;
-  margin-bottom: 24px;
-
-  font-size: 2rem;
-
-  line-height: 1.2;
-
-  letter-spacing: -0.025em;
+  margin-top: 80px;
+  margin-bottom: 25px;
+  font-size: 2.2rem;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
 }
 
 .site-main h3 {
   margin-top: 35px;
   margin-bottom: 12px;
-
   font-size: 1.35rem;
-
-  line-height: 1.35;
 }
 
 .site-main p {
-  max-width: 850px;
+  max-width: 820px;
 }
 
 .site-main strong {
-  font-weight: 650;
+  font-weight: 700;
 }
 
+.site-main a {
+  color: var(--green);
+  text-decoration: none;
+}
 
-/* =========================================================
-   Horizontal rules
-   ========================================================= */
+.site-main a:hover {
+  color: var(--green-dark);
+  text-decoration: underline;
+}
+
+/* ================= HOME HERO ================= */
+
+.home-hero {
+  min-height: 620px;
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 70px;
+  align-items: center;
+  padding: 55px 0 80px;
+}
+
+.home-hero h1 {
+  max-width: 850px;
+}
+
+.home-hero .subtitle {
+  font-size: 1.35rem;
+  color: var(--green);
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.home-hero .intro {
+  font-size: 1.15rem;
+  color: var(--muted);
+  max-width: 720px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  padding: 11px 20px;
+  border: 1px solid var(--green);
+  border-radius: 7px;
+  font-weight: 650;
+  color: var(--green);
+}
+
+.hero-buttons a:hover {
+  background: var(--green);
+  color: white;
+  text-decoration: none;
+}
+
+.hero-photo {
+  width: 100%;
+  min-height: 430px;
+  background: var(--green-light);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: 100%;
+  min-height: 430px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ================= SECTION ================= */
+
+.home-section {
+  padding: 65px 0;
+  border-top: 1px solid var(--border);
+}
+
+.section-intro {
+  color: var(--muted);
+  font-size: 1.08rem;
+  max-width: 800px;
+}
+
+/* ================= CARDS ================= */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 35px;
+}
+
+.card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(32, 37, 31, 0.08);
+}
+
+.card-number {
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.card p {
+  color: var(--muted);
+  font-size: 15px;
+}
+
+/* ================= FEATURED ================= */
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.featured {
+  background: var(--green-light);
+  border-radius: 14px;
+  padding: 35px;
+}
+
+.featured h3 {
+  margin-top: 8px;
+  font-size: 1.5rem;
+}
+
+.featured p {
+  color: var(--muted);
+}
+
+/* ================= LINKS ================= */
+
+.section-link {
+  display: inline-block;
+  margin-top: 18px;
+  font-weight: 700;
+}
+
+/* ================= HR ================= */
 
 .site-main hr {
   border: 0;
-
   border-top: 1px solid var(--border);
-
-  margin: 55px 0;
+  margin: 60px 0;
 }
 
-
-/* =========================================================
-   Lists
-   ========================================================= */
-
-.site-main ul,
-.site-main ol {
-  max-width: 850px;
-
-  padding-left: 1.4rem;
-}
-
-.site-main li {
-  margin-bottom: 0.35rem;
-}
-
-
-/* =========================================================
-   Homepage sections
-   ========================================================= */
-
-.site-main section {
-  margin-bottom: 70px;
-}
-
-
-/* =========================================================
-   Buttons / action links
-   ========================================================= */
-
-.site-main a[href^="/research/"],
-.site-main a[href^="/projects/"],
-.site-main a[href^="/publications/"],
-.site-main a[href^="/fieldwork/"],
-.site-main a[href^="/about/"] {
-  display: inline-block;
-
-  margin-top: 8px;
-
-  font-weight: 600;
-}
-
-
-/* =========================================================
-   Footer
-   ========================================================= */
-
-.site-footer {
-  border-top: 1px solid var(--border);
-
-  background: var(--surface);
-}
-
-.site-footer__inner {
-  max-width: var(--max-width);
-
-  margin: 0 auto;
-
-  padding: 45px 28px;
-
-  display: flex;
-
-  justify-content: space-between;
-
-  gap: 40px;
-}
-
-.site-footer strong {
-  font-size: 16px;
-}
-
-.site-footer p {
-  margin: 5px 0 0;
-
-  color: var(--muted);
-
-  font-size: 14px;
-}
-
-.site-footer__links {
-  display: flex;
-
-  flex-wrap: wrap;
-
-  align-items: center;
-
-  gap: 20px;
-
-  font-size: 14px;
-}
-
-.site-footer__bottom {
-  max-width: var(--max-width);
-
-  margin: 0 auto;
-
-  padding: 18px 28px;
-
-  border-top: 1px solid var(--border);
-
-  color: var(--muted);
-
-  font-size: 13px;
-}
-
-
-/* =========================================================
-   Mobile
-   ========================================================= */
-
-@media (max-width: 850px) {
-
-  .site-header__inner {
-    flex-direction: column;
-
-    align-items: flex-start;
-
-    padding: 16px 20px;
-  }
-
-  .site-nav {
-    width: 100%;
-
-    flex-wrap: wrap;
-
-    gap: 10px 18px;
-  }
-
-  .site-main {
-    padding: 50px 20px 75px;
-  }
-
-  .site-main h1 {
-    font-size: 2.8rem;
-  }
-
-  .site-main h2 {
-    margin-top: 55px;
-
-    font-size: 1.7rem;
-  }
-
-  .site-footer__inner {
-    flex-direction: column;
-
-    padding: 35px 20px;
-  }
-
-  .site-footer__bottom {
-    padding: 16px 20px;
-  }
-
-}
-
-
-/* =========================================================
-   Very small screens
-   ========================================================= */
-
-@media (max-width: 480px) {
-
-  body {
-    font-size: 16px;
-  }
-
-  .site-main h1 {
-    font-size: 2.45rem;
-  }
-
-  .site-nav {
-    gap: 8px 14px;
-
-    font-size: 14px;
-  }
-
-}
-
-/* =========================================================
-   Photography Gallery
-   ========================================================= */
+/* ================= PHOTOGRAPHY ================= */
 
 .photo-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
-  margin: 25px 0 45px;
-}
-
-.photo-item {
-  margin: 0;
+  gap: 25px;
+  margin: 30px 0 50px;
 }
 
 .photo-item img {
@@ -393,38 +309,124 @@ a:hover {
   aspect-ratio: 4 / 3;
   object-fit: cover;
   display: block;
-  border-radius: 8px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
 }
 
 .photo-item img:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
 }
 
 .photo-item p {
   margin-top: 10px;
-  margin-bottom: 0;
   color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.5;
+  font-size: 14px;
 }
 
-.photo-item p strong {
-  color: var(--text);
+/* ================= FOOTER ================= */
+
+.site-footer {
+  background: var(--white);
+  border-top: 1px solid var(--border);
 }
 
-@media (max-width: 800px) {
+.site-footer__inner {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 45px 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.site-footer p {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.site-footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.site-footer__bottom {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 18px 30px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 850px) {
+
+  .site-header__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 20px;
+  }
+
+  .site-nav {
+    gap: 10px 16px;
+  }
+
+  .site-main {
+    padding: 45px 20px 70px;
+  }
+
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding-top: 30px;
+  }
+
+  .hero-photo {
+    min-height: 350px;
+  }
+
+  .hero-photo img {
+    min-height: 350px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+
   .photo-gallery {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  }
+
+  .site-footer__inner {
+    flex-direction: column;
+    padding: 35px 20px;
+  }
+
+  .site-footer__bottom {
+    padding: 16px 20px;
   }
 }
 
 @media (max-width: 550px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  .site-main h1 {
+    font-size: 2.8rem;
+  }
+
   .photo-gallery {
     grid-template-columns: 1fr;
-    gap: 25px;
   }
 }
-
