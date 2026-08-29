@@ -431,3 +431,73 @@ body {
   }
 }
 
+/* =========================================================
+   Research page — Home-style presentation
+   ========================================================= */
+
+.page-hero {
+  max-width: 850px;
+  margin-bottom: 70px;
+}
+
+.page-hero h1 {
+  margin-bottom: 24px;
+}
+
+.hero-lead {
+  font-size: 1.35rem;
+  line-height: 1.65;
+  max-width: 850px !important;
+}
+
+.research-grid {
+  display: block;
+  margin-top: 25px;
+}
+
+.research-card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--border);
+  border-radius: 0;
+  padding: 30px 0;
+  min-height: 0;
+}
+
+.research-card:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.research-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.research-card span {
+  display: block;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.research-card h3 {
+  margin: 0 0 10px;
+}
+
+.research-card p {
+  margin: 0;
+}
+
+.research-tags {
+  background: var(--accent-light);
+  border-radius: 0;
+  padding: 28px;
+  margin-top: 25px;
+  max-width: 850px;
+}
+
+.research-tags strong {
+  display: inline;
+  margin: 0;
+}
