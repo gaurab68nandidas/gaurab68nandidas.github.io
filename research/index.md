@@ -1,5 +1,4 @@
 ---
-
 layout: custom
 title: "Research"
 permalink: /research/
@@ -10,104 +9,86 @@ permalink: /research/
 # Research
 
 <p class="hero-lead">
-My research focuses on <strong>butterfly biodiversity, ecology, evolution and environmental change</strong>, with an emphasis on South Asia.
+I study <strong>butterfly biodiversity, ecology, evolution and environmental change</strong>, with a particular focus on South Asia.
 </p>
 
 <p>
-I combine field-based ecological surveys, natural history collections, biodiversity databases, phylogenetic approaches and quantitative methods to understand how butterfly diversity and phenotypes vary across space and through time.
+My research combines field ecology, natural history collections, biodiversity informatics, phylogenetics and quantitative approaches to understand how butterfly diversity changes across space and through time.
 </p>
 
 </section>
 
 ---
 
-## Research themes
+## What I study
 
-<div class="research-grid">
+<div class="research-list">
 
-<div class="research-card">
-
-<span>01</span>
-
-### Butterfly biodiversity & ecology
-
-I investigate butterfly species richness, abundance, community composition and habitat associations across environmental gradients.
-
+<div class="research-item">
+<div class="research-number">01</div>
+<div>
+<h3>Butterfly biodiversity & ecology</h3>
+<p>I investigate species richness, abundance, community composition and habitat associations across environmental gradients.</p>
+</div>
 </div>
 
-<div class="research-card">
-
-<span>02</span>
-
-### Evolution & biogeography
-
-I study species distributions, evolutionary distinctiveness, endemism and biogeographic variation in Indian and South Asian butterflies.
-
+<div class="research-item">
+<div class="research-number">02</div>
+<div>
+<h3>Evolution & biogeography</h3>
+<p>I study species distributions, evolutionary distinctiveness, endemism and biogeographic patterns of Indian and South Asian butterflies.</p>
+</div>
 </div>
 
-<div class="research-card">
-
-<span>03</span>
-
-### Natural history collections
-
-Museum specimens provide an important historical record of biodiversity. I use collections to reconstruct past biological variation and understand long-term changes.
-
+<div class="research-item">
+<div class="research-number">03</div>
+<div>
+<h3>Natural history collections</h3>
+<p>I use museum specimens as historical records to investigate past biodiversity and phenotypic variation.</p>
+</div>
 </div>
 
-<div class="research-card">
-
-<span>04</span>
-
-### Biodiversity informatics
-
-I integrate biodiversity information from sources such as GBIF, iDigBio and natural history collections to connect historical observations with contemporary biodiversity data.
-
+<div class="research-item">
+<div class="research-number">04</div>
+<div>
+<h3>Biodiversity informatics</h3>
+<p>I integrate GBIF, iDigBio and natural history collections with contemporary biodiversity observations.</p>
+</div>
 </div>
 
-<div class="research-card">
-
-<span>05</span>
-
-### Phenotypic change
-
-My broader research examines how butterfly phenotypes may change through time in relation to environmental and climatic change.
-
+<div class="research-item">
+<div class="research-number">05</div>
+<div>
+<h3>Phenotypic change</h3>
+<p>I investigate how butterfly phenotypes vary through time in relation to environmental and climatic change.</p>
+</div>
 </div>
 
-<div class="research-card">
-
-<span>06</span>
-
-### Conservation & environmental change
-
-I investigate how habitat and environmental conditions influence butterfly communities and contribute to biodiversity conservation.
-
+<div class="research-item">
+<div class="research-number">06</div>
+<div>
+<h3>Conservation & environmental change</h3>
+<p>I examine how habitat and environmental conditions influence butterfly communities and biodiversity.</p>
+</div>
 </div>
 
 </div>
 
 ---
 
-## Research approach
+## How I work
 
-My work brings together:
+<div class="approach-box">
 
-<div class="research-tags">
+**Field ecology** · **Taxonomy** · **Phylogenetics** · **Macroecology**
 
-**Field ecology**
-**Taxonomy**
-**Phylogenetics**
-**Macroecology**
-**Biodiversity informatics**
-**Natural history collections**
-**Geometric morphometrics**
-**Spatial analysis**
-**Statistical modelling**
+**Biodiversity informatics** · **Natural history collections**
+
+**Geometric morphometrics** · **Spatial analysis** · **Statistical modelling**
 
 </div>
 
 ---
 
-[View projects →](/projects/)
+[Explore projects →](/projects/)  
 [View publications →](/publications/)
