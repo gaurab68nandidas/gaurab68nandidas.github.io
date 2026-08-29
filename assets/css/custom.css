@@ -432,76 +432,72 @@ body {
 }
 
 /* =========================================================
-   Research page
+   Research
    ========================================================= */
 
 .page-hero {
   max-width: 900px;
-  margin-bottom: 80px;
-}
-
-.page-hero h1 {
-  margin-bottom: 25px;
+  margin-bottom: 85px;
 }
 
 .hero-lead {
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   max-width: 850px !important;
 }
 
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 22px;
+.research-list {
   margin-top: 35px;
+  max-width: 950px;
 }
 
-.research-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 30px;
-  min-height: 230px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+.research-item {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 30px;
+  padding: 32px 0;
+  border-top: 1px solid var(--border);
 }
 
-.research-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+.research-item:last-child {
+  border-bottom: 1px solid var(--border);
 }
 
-.research-card span {
-  color: var(--accent);
-  font-size: 0.85rem;
+.research-number {
+  font-size: 1rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  color: var(--accent);
+  padding-top: 5px;
 }
 
-.research-card h3 {
-  margin-top: 18px;
-  margin-bottom: 12px;
+.research-item h3 {
+  margin: 0 0 10px;
+  font-size: 1.45rem;
 }
 
-.research-card p {
-  margin-bottom: 0;
+.research-item p {
+  margin: 0;
+  max-width: 750px;
+  color: var(--muted);
 }
 
-.research-tags {
+.approach-box {
+  max-width: 950px;
+  padding: 35px;
+  margin-top: 30px;
   background: var(--accent-light);
   border-radius: 14px;
-  padding: 30px;
-  margin-top: 25px;
-  max-width: 900px;
+  line-height: 2.4;
+  font-size: 1.05rem;
 }
 
-.research-tags strong {
-  display: inline-block;
-  margin: 6px 12px 6px 0;
-}
+@media (max-width: 650px) {
+  .research-item {
+    grid-template-columns: 45px 1fr;
+    gap: 15px;
+  }
 
-@media (max-width: 700px) {
-  .research-grid {
-    grid-template-columns: 1fr;
+  .approach-box {
+    padding: 25px;
   }
 }
