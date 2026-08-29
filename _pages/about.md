@@ -5,14 +5,18 @@ title: "Home"
 ---
 
 
-
 # Gaurab Nandi Das
 
 ### Butterfly ecologist · Biodiversity researcher
 
 I study **butterfly biodiversity, ecology, evolution and environmental change**, with a particular focus on South Asia.
 
-My research brings together **field ecology, natural history collections, biodiversity informatics, evolutionary approaches and quantitative methods** to understand how butterfly diversity and phenotypes vary across space and through time.
+My research combines **taxonomy, field ecology, natural history collections, biodiversity informatics, evolutionary approaches and quantitative methods** to understand how butterfly diversity and phenotypes change across space and through time.
+
+[Explore my research →](/research/)  
+[View projects →](/projects/)  
+[View publications →](/publications/)
+
 
 ---
 
