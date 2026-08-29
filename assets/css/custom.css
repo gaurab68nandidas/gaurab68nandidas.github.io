@@ -428,19 +428,3 @@ a:hover {
   }
 }
 
-
-/* Fix navigation bullets */
-.greedy-nav ul,
-.greedy-nav li {
-  list-style: none !important;
-}
-
-.greedy-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-.greedy-nav li {
-  margin: 0;
-  padding: 0;
-}
