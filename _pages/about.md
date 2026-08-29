@@ -86,33 +86,76 @@ title: Home
 
 ---
 
-## Research
+<section class="home-section">
 
-### 01 — Butterfly biodiversity & ecology
+  <h2>Research</h2>
 
-Understanding butterfly communities, species richness, abundance and habitat associations across landscapes and environmental gradients.
+  <p class="section-intro">
+    My research spans butterfly ecology, evolution, biodiversity
+    informatics and long-term environmental change.
+  </p>
 
-### 02 — Evolution & biogeography
+  <div class="card-grid">
 
-Investigating species distributions, evolutionary distinctiveness, endemism and large-scale biogeographic patterns in Indian and South Asian butterflies.
+    <div class="card">
+      <div class="card-number">01</div>
+      <h3>Butterfly ecology</h3>
+      <p>
+        Species richness, abundance, community composition and
+        habitat associations.
+      </p>
+    </div>
 
-### 03 — Natural history collections
+    <div class="card">
+      <div class="card-number">02</div>
+      <h3>Evolution & biogeography</h3>
+      <p>
+        Evolutionary distinctiveness, endemism, species distributions
+        and biogeographic patterns.
+      </p>
+    </div>
 
-Using historical museum specimens as records of past biodiversity and phenotypic variation.
+    <div class="card">
+      <div class="card-number">03</div>
+      <h3>Natural history collections</h3>
+      <p>
+        Using historical museum specimens to investigate past
+        biodiversity and phenotypic variation.
+      </p>
+    </div>
 
-### 04 — Biodiversity informatics
+    <div class="card">
+      <div class="card-number">04</div>
+      <h3>Biodiversity informatics</h3>
+      <p>
+        Connecting museum collections, GBIF, iDigBio and contemporary
+        biodiversity observations.
+      </p>
+    </div>
 
-Integrating natural history collections and biodiversity platforms such as **GBIF** and **iDigBio**.
+    <div class="card">
+      <div class="card-number">05</div>
+      <h3>Phenotypic change</h3>
+      <p>
+        Understanding how butterfly phenotypes vary through time
+        and environmental change.
+      </p>
+    </div>
 
-### 05 — Phenotypic change
+    <div class="card">
+      <div class="card-number">06</div>
+      <h3>Conservation</h3>
+      <p>
+        Applying ecological and evolutionary knowledge to understand
+        and conserve butterfly diversity.
+      </p>
+    </div>
 
-Investigating how butterfly phenotypes vary across space and through time in relation to environmental change.
+  </div>
 
-### 06 — Conservation
+  <a class="section-link" href="/research/">Explore my research →</a>
 
-Understanding patterns of butterfly diversity and ecological associations that can contribute to biodiversity conservation.
-
-[Explore all research →](/research/)
+</section>
 
 ---
 
