@@ -5,17 +5,36 @@ permalink: /
 title: Home
 ---
 
-# Gaurab Nandi Das
+<div class="home-hero">
 
-### Butterfly ecologist · Biodiversity researcher
+  <div>
+    <div class="subtitle">Butterfly ecologist · Biodiversity researcher</div>
 
-I study **butterfly biodiversity, ecology, evolution and environmental change**, with a particular focus on South Asia.
+    <h1>Gaurab Nandi Das</h1>
 
-My research combines **field ecology, natural history collections, biodiversity informatics, evolutionary approaches and quantitative methods** to understand how butterfly diversity and phenotypes vary across space and through time.
+    <p class="intro">
+      I study butterfly biodiversity, ecology, evolution and environmental
+      change, with a particular focus on South Asia.
+    </p>
 
-[Explore my research →](/research/)
-[View projects →](/projects/)
-[View publications →](/publications/)
+    <p class="intro">
+      My research combines field ecology, natural history collections,
+      biodiversity informatics and quantitative approaches to understand
+      how butterfly diversity changes across space and through time.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="/research/">Research</a>
+      <a href="/projects/">Projects</a>
+      <a href="/publications/">Publications</a>
+    </div>
+  </div>
+
+  <div class="hero-photo">
+    <img src="/images/YOUR-PHOTO.jpg" alt="Gaurab Nandi Das">
+  </div>
+
+</div>
 
 ---
 
