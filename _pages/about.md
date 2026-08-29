@@ -36,7 +36,6 @@ title: Home
 
 </div>
 
----
 
 <section class="home-section">
 
@@ -83,8 +82,6 @@ title: Home
   </div>
 
 </section>
-
----
 
 <section class="home-section">
 
@@ -157,68 +154,153 @@ title: Home
 
 </section>
 
----
+<section class="home-section">
 
-## Selected projects
+  <h2>Selected projects</h2>
 
-### TRACE
+  <div class="featured-grid">
 
-**Long-term phenotypic change in South Asian butterflies**
+    <div class="featured">
+      <div class="card-number">PROJECT 01</div>
+      <h3>TRACE</h3>
 
-Natural history collections · Biodiversity informatics · Phenotypic analysis · Environmental modelling
+      <p>
+        <strong>Long-term phenotypic change in South Asian butterflies</strong>
+      </p>
 
-[Explore TRACE →](/projects/)
+      <p>
+        Natural history collections · Biodiversity informatics ·
+        Phenotypic analysis · Environmental modelling
+      </p>
 
-### Manas National Park
+      <a href="/projects/">Explore TRACE →</a>
+    </div>
 
-**Butterfly biodiversity across habitats and environmental gradients**
 
-Field ecology · Community ecology · Habitat associations · Quantitative analysis
+    <div class="featured">
+      <div class="card-number">FIELDWORK 02</div>
+      <h3>Manas National Park</h3>
 
-[Explore fieldwork →](/fieldwork/)
+      <p>
+        <strong>Butterfly biodiversity across habitats and environmental gradients</strong>
+      </p>
 
-### Indian Butterfly Biogeography
+      <p>
+        Field ecology · Community ecology · Habitat associations ·
+        Quantitative analysis
+      </p>
 
-**Distribution, endemism and evolutionary distinctiveness**
+      <a href="/fieldwork/">Explore fieldwork →</a>
+    </div>
 
-Species distributions · Phylogenetics · Evolutionary distinctiveness · Macroecology
 
-[Explore projects →](/projects/)
+    <div class="featured">
+      <div class="card-number">PROJECT 03</div>
+      <h3>Indian Butterfly Biogeography</h3>
 
----
+      <p>
+        <strong>Distribution, endemism and evolutionary distinctiveness</strong>
+      </p>
 
-## Publications
+      <p>
+        Species distributions · Phylogenetics · Evolutionary distinctiveness ·
+        Macroecology
+      </p>
 
-My research includes work on **butterfly ecology, biodiversity, taxonomy, evolution and conservation**.
+      <a href="/projects/">Explore project →</a>
+    </div>
 
-[View publications →](/publications/)
+  </div>
 
----
+</section>
 
-## Fieldwork
+<section class="home-section">
 
-Much of my research begins in the field.
+  <h2>Publications</h2>
 
-I study butterfly communities across different habitats and landscapes, combining **standardized biodiversity surveys, ecological observations and environmental measurements**.
+  <p class="section-intro">
+    My research includes work on butterfly ecology, biodiversity,
+    taxonomy, evolution and conservation.
+  </p>
 
-**South Asia · India · Biodiversity · Butterflies**
+  <a class="section-link" href="/publications/">
+    View publications →
+  </a>
 
-[Explore fieldwork →](/fieldwork/)
+</section>
 
----
+<section class="home-section">
 
-## About
+  <h2>Fieldwork</h2>
 
-I am a butterfly ecologist and biodiversity researcher based in **Czechia**, with research interests centred on the biodiversity and ecology of butterflies, particularly those of South Asia.
+  <p class="section-intro">
+    Much of my research begins in the field. I study butterfly communities
+    across different habitats and landscapes, combining standardized
+    biodiversity surveys, ecological observations and environmental
+    measurements.
+  </p>
 
-My work combines **field research, natural history collections, biodiversity databases and quantitative approaches**.
+  <p>
+    <strong>South Asia · India · Biodiversity · Butterflies</strong>
+  </p>
 
-[More about me →](/about/)
+  <a class="section-link" href="/fieldwork/">
+    Explore fieldwork →
+  </a>
 
----
+</section>
 
-## Let's talk
 
-I am interested in research collaborations involving **butterfly biodiversity, ecology, evolution, natural history collections, biodiversity informatics and environmental change**.
+<section class="home-section">
 
-[Google Scholar](https://scholar.google.com/citations?user=obLqUQgAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0002-4722-3100) · [ResearchGate](https://www.researchgate.net/profile/Gaurab-Das) · [GitHub](https://github.com/gaurab68nandidas)
+  <h2>About</h2>
+
+  <p class="section-intro">
+    I am a butterfly ecologist and biodiversity researcher based in
+    <strong>Czechia</strong>, with research interests centred on the
+    biodiversity and ecology of butterflies, particularly those of South Asia.
+  </p>
+
+  <p>
+    My work combines <strong>field research, natural history collections,
+    biodiversity databases and quantitative approaches</strong>.
+  </p>
+
+  <a class="section-link" href="/about/">
+    More about me →
+  </a>
+
+</section>
+
+
+<section class="home-section">
+
+  <h2>Let's talk</h2>
+
+  <p class="section-intro">
+    I am interested in research collaborations involving
+    <strong>butterfly biodiversity, ecology, evolution, natural history
+    collections, biodiversity informatics and environmental change</strong>.
+  </p>
+
+  <div class="hero-buttons">
+
+    <a href="https://scholar.google.com/citations?user=obLqUQgAAAAJ&hl=en">
+      Google Scholar
+    </a>
+
+    <a href="https://orcid.org/0000-0002-4722-3100">
+      ORCID
+    </a>
+
+    <a href="https://www.researchgate.net/profile/Gaurab-Das">
+      ResearchGate
+    </a>
+
+    <a href="https://github.com/gaurab68nandidas">
+      GitHub
+    </a>
+
+  </div>
+
+</section>
